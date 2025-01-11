@@ -46,6 +46,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Dumbastro-FitsPhp-Bitpix.html#enumcase_Float64"
         },                {
+            "fqsen": "\\Dumbastro\\FitsPhp\\Channel",
+            "name": "Channel",
+            "summary": "RGB\u0020image\u0020channels",
+            "url": "classes/Dumbastro-FitsPhp-Channel.html"
+        },                {
+            "fqsen": "\\Dumbastro\\FitsPhp\\Channel\u003A\u003AR",
+            "name": "R",
+            "summary": "",
+            "url": "classes/Dumbastro-FitsPhp-Channel.html#enumcase_R"
+        },                {
+            "fqsen": "\\Dumbastro\\FitsPhp\\Channel\u003A\u003AG",
+            "name": "G",
+            "summary": "",
+            "url": "classes/Dumbastro-FitsPhp-Channel.html#enumcase_G"
+        },                {
+            "fqsen": "\\Dumbastro\\FitsPhp\\Channel\u003A\u003AB",
+            "name": "B",
+            "summary": "",
+            "url": "classes/Dumbastro-FitsPhp-Channel.html#enumcase_B"
+        },                {
+            "fqsen": "\\Dumbastro\\FitsPhp\\Channel\u003A\u003AL",
+            "name": "L",
+            "summary": "",
+            "url": "classes/Dumbastro-FitsPhp-Channel.html#enumcase_L"
+        },                {
+            "fqsen": "\\Dumbastro\\FitsPhp\\Channel\u003A\u003AM",
+            "name": "M",
+            "summary": "",
+            "url": "classes/Dumbastro-FitsPhp-Channel.html#enumcase_M"
+        },                {
             "fqsen": "\\Dumbastro\\FitsPhp\\Exceptions\\InvalidBitpixValue",
             "name": "InvalidBitpixValue",
             "summary": "",
@@ -81,11 +111,6 @@ Search.appendIndex(
             "summary": "Validate\u0020the\u0020given\u0020FITS\u0020file\u0020based\u0020on\u0020block\u0020sizes",
             "url": "classes/Dumbastro-FitsPhp-Fits.html#method_validate"
         },                {
-            "fqsen": "\\Dumbastro\\FitsPhp\\Fits\u003A\u003Aheader\u0028\u0029",
-            "name": "header",
-            "summary": "",
-            "url": "classes/Dumbastro-FitsPhp-Fits.html#method_header"
-        },                {
             "fqsen": "\\Dumbastro\\FitsPhp\\Fits\u003A\u003AextractHeader\u0028\u0029",
             "name": "extractHeader",
             "summary": "Extract\u0020the\u0020FITS\u0020header\u0020block\u0020as\u0020a\u0020string",
@@ -96,15 +121,25 @@ Search.appendIndex(
             "summary": "Extract\u0020the\u0020FITS\u0020image\u0020blob\u0020as\u0020a\u0020string\u003B\nit\u0020uses\u0020the\u0020NAXIS1\u0020and\u0020NAXIS2\u0020keywords\nto\u0020compute\u0020the\u0020length\u0020of\u0020the\u0020main\u0020data\u0020table",
             "url": "classes/Dumbastro-FitsPhp-Fits.html#method_extractImageBlob"
         },                {
-            "fqsen": "\\Dumbastro\\FitsPhp\\Fits\u003A\u003AsaveAsPNG\u0028\u0029",
-            "name": "saveAsPNG",
+            "fqsen": "\\Dumbastro\\FitsPhp\\Fits\u003A\u003AsaveToPNG\u0028\u0029",
+            "name": "saveToPNG",
             "summary": "",
-            "url": "classes/Dumbastro-FitsPhp-Fits.html#method_saveAsPNG"
+            "url": "classes/Dumbastro-FitsPhp-Fits.html#method_saveToPNG"
         },                {
-            "fqsen": "\\Dumbastro\\FitsPhp\\Fits\u003A\u003AwriteTo\u0028\u0029",
-            "name": "writeTo",
+            "fqsen": "\\Dumbastro\\FitsPhp\\Fits\u003A\u003AsaveToJPG\u0028\u0029",
+            "name": "saveToJPG",
             "summary": "",
-            "url": "classes/Dumbastro-FitsPhp-Fits.html#method_writeTo"
+            "url": "classes/Dumbastro-FitsPhp-Fits.html#method_saveToJPG"
+        },                {
+            "fqsen": "\\Dumbastro\\FitsPhp\\Fits\u003A\u003AsaveToTIFF\u0028\u0029",
+            "name": "saveToTIFF",
+            "summary": "",
+            "url": "classes/Dumbastro-FitsPhp-Fits.html#method_saveToTIFF"
+        },                {
+            "fqsen": "\\Dumbastro\\FitsPhp\\Fits\u003A\u003Asave\u0028\u0029",
+            "name": "save",
+            "summary": "",
+            "url": "classes/Dumbastro-FitsPhp-Fits.html#method_save"
         },                {
             "fqsen": "\\Dumbastro\\FitsPhp\\Fits\u003A\u003A\u0024contents",
             "name": "contents",
@@ -135,6 +170,11 @@ Search.appendIndex(
             "name": "imageBlob",
             "summary": "",
             "url": "classes/Dumbastro-FitsPhp-Fits.html#property_imageBlob"
+        },                {
+            "fqsen": "\\Dumbastro\\FitsPhp\\Fits\u003A\u003A\u0024vipsImage",
+            "name": "vipsImage",
+            "summary": "",
+            "url": "classes/Dumbastro-FitsPhp-Fits.html#property_vipsImage"
         },                {
             "fqsen": "\\Dumbastro\\FitsPhp\\FitsHeader",
             "name": "FitsHeader",
@@ -200,6 +240,11 @@ Search.appendIndex(
             "name": "pixels",
             "summary": "Returns\u0020a\u0020generator\u0020that\u0020yields\u0020image\u0020data\npixel\u0020by\u0020pixel",
             "url": "classes/Dumbastro-FitsPhp-ImageBlob.html#method_pixels"
+        },                {
+            "fqsen": "\\Dumbastro\\FitsPhp\\ImageBlob\u003A\u003ApixelsMono\u0028\u0029",
+            "name": "pixelsMono",
+            "summary": "",
+            "url": "classes/Dumbastro-FitsPhp-ImageBlob.html#method_pixelsMono"
         },                {
             "fqsen": "\\Dumbastro\\FitsPhp\\ImageBlob\u003A\u003AdataBytes\u0028\u0029",
             "name": "dataBytes",

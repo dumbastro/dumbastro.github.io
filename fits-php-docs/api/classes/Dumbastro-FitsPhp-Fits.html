@@ -118,7 +118,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">13</span>
 
     </aside>
 
@@ -152,6 +152,12 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#property_fitsHeader">$fitsHeader</a>
+    <span>
+                        &nbsp;: <a href="classes/Dumbastro-FitsPhp-FitsHeader.html"><abbr title="\Dumbastro\FitsPhp\FitsHeader">FitsHeader</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
     <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#property_headerBlock">$headerBlock</a>
     <span>
                         &nbsp;: string            </span>
@@ -169,16 +175,16 @@
                         &nbsp;: int            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#property_vipsImage">$vipsImage</a>
+    <span>
+                        &nbsp;: <abbr title="\Jcupitt\Vips\Image">Image</abbr>            </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#property_contents">$contents</a>
     <span>
                         &nbsp;: string            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#property_fitsHeader">$fitsHeader</a>
-    <span>
-                        &nbsp;: <a href="classes/Dumbastro-FitsPhp-FitsHeader.html"><abbr title="\Dumbastro\FitsPhp\FitsHeader">FitsHeader</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -203,13 +209,25 @@
 <dd>Construct a Fits object</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#method_header">header()</a>
+    <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#method_save">save()</a>
     <span>
-                                &nbsp;: <a href="classes/Dumbastro-FitsPhp-FitsHeader.html"><abbr title="\Dumbastro\FitsPhp\FitsHeader">FitsHeader</abbr></a>    </span>
+                                &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#method_saveAsPNG">saveAsPNG()</a>
+    <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#method_saveToJPG">saveToJPG()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#method_saveToPNG">saveToPNG()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#method_saveToTIFF">saveToTIFF()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -220,12 +238,6 @@
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Validate the given FITS file based on block sizes</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#method_writeTo">writeTo()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/Dumbastro-FitsPhp-Fits.html#method_extractHeader">extractHeader()</a>
@@ -263,6 +275,42 @@ to compute the length of the main data table</dd>
             -public
                                                 -read-only        "
 >
+    <h4 class="phpdocumentor-element__name" id="property_fitsHeader">
+        $fitsHeader
+        <a href="classes/Dumbastro-FitsPhp-Fits.html#property_fitsHeader" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">17</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/Dumbastro-FitsPhp-FitsHeader.html"><abbr title="\Dumbastro\FitsPhp\FitsHeader">FitsHeader</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$fitsHeader</span>
+    </code>
+
+    
+    
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                -read-only        "
+>
     <h4 class="phpdocumentor-element__name" id="property_headerBlock">
         $headerBlock
         <a href="classes/Dumbastro-FitsPhp-Fits.html#property_headerBlock" class="headerlink"><i class="fas fa-link"></i></a>
@@ -273,7 +321,7 @@ to compute the length of the main data table</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -309,7 +357,7 @@ to compute the length of the main data table</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
@@ -345,7 +393,7 @@ to compute the length of the main data table</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -355,6 +403,42 @@ to compute the length of the main data table</dd>
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">int</span>
     <span class="phpdocumentor-signature__name">$size</span>
+    </code>
+
+    
+    
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                -read-only        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_vipsImage">
+        $vipsImage
+        <a href="classes/Dumbastro-FitsPhp-Fits.html#property_vipsImage" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">21</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Jcupitt\Vips\Image">Image</abbr></span>
+    <span class="phpdocumentor-signature__name">$vipsImage</span>
     </code>
 
     
@@ -381,7 +465,7 @@ to compute the length of the main data table</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
@@ -391,42 +475,6 @@ to compute the length of the main data table</dd>
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$contents</span>
-    </code>
-
-    
-    
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_fitsHeader">
-        $fitsHeader
-        <a href="classes/Dumbastro-FitsPhp-Fits.html#property_fitsHeader" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">16</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/Dumbastro-FitsPhp-FitsHeader.html"><abbr title="\Dumbastro\FitsPhp\FitsHeader">FitsHeader</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$fitsHeader</span>
     </code>
 
     
@@ -453,7 +501,7 @@ to compute the length of the main data table</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -494,7 +542,7 @@ to compute the length of the main data table</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
@@ -559,37 +607,43 @@ to compute the length of the main data table</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_header">
-        header()
-        <a href="classes/Dumbastro-FitsPhp-Fits.html#method_header" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_save">
+        save()
+        <a href="classes/Dumbastro-FitsPhp-Fits.html#method_save" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">113</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">header</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Dumbastro-FitsPhp-FitsHeader.html"><abbr title="\Dumbastro\FitsPhp\FitsHeader">FitsHeader</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">save</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$path</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-    
-    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$path</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
 
     
 
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><a href="classes/Dumbastro-FitsPhp-FitsHeader.html"><abbr title="\Dumbastro\FitsPhp\FitsHeader">FitsHeader</abbr></a></span>
-            </section>
+    
 
+    
 </article>
                     <article
         class="phpdocumentor-element
@@ -597,22 +651,22 @@ to compute the length of the main data table</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_saveAsPNG">
-        saveAsPNG()
-        <a href="classes/Dumbastro-FitsPhp-Fits.html#method_saveAsPNG" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_saveToJPG">
+        saveToJPG()
+        <a href="classes/Dumbastro-FitsPhp-Fits.html#method_saveToJPG" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">103</span>
+    <span class="phpdocumentor-element-found-in__line">101</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">saveAsPNG</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$path</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">saveToJPG</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$path</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -632,7 +686,7 @@ to compute the length of the main data table</dd>
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="classes/Dumbastro-FitsPhp-Fits.html#method_saveAsPNG#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Dumbastro-FitsPhp-Fits.html#method_saveToJPG#tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
@@ -641,7 +695,134 @@ to compute the length of the main data table</dd>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>Write exception</p>
+                                                 <section class="phpdocumentor-description"><p>Write exception and check extension</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_saveToPNG">
+        saveToPNG()
+        <a href="classes/Dumbastro-FitsPhp-Fits.html#method_saveToPNG" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">94</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">saveToPNG</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$path</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$compressionLevel</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">9</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$path</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$compressionLevel</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">9</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Dumbastro-FitsPhp-Fits.html#method_saveToPNG#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">todo</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Write exception and check extension; PNG compression?</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_saveToTIFF">
+        saveToTIFF()
+        <a href="classes/Dumbastro-FitsPhp-Fits.html#method_saveToTIFF" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">108</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">saveToTIFF</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$path</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$path</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Dumbastro-FitsPhp-Fits.html#method_saveToTIFF#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">todo</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Write exception and check extension</p>
 </section>
 
                                     </dd>
@@ -665,7 +846,7 @@ to compute the length of the main data table</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">56</span>
 
     </aside>
 
@@ -700,50 +881,6 @@ FITS blocks, which are each 2880 bytes (23040 bits) in length.&quot;
                     <article
         class="phpdocumentor-element
             -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_writeTo">
-        writeTo()
-        <a href="classes/Dumbastro-FitsPhp-Fits.html#method_writeTo" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">110</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">writeTo</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$path</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$path</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
             -private
                                                         "
 >
@@ -755,7 +892,7 @@ FITS blocks, which are each 2880 bytes (23040 bits) in length.&quot;
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
     </aside>
 
@@ -794,7 +931,7 @@ FITS blocks, which are each 2880 bytes (23040 bits) in length.&quot;
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Fits.php"><a href="files/src-fits.html"><abbr title="src/Fits.php">Fits.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">85</span>
+    <span class="phpdocumentor-element-found-in__line">77</span>
 
     </aside>
 
@@ -934,11 +1071,12 @@ to compute the length of the main data table</p>
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#property_fitsHeader">$fitsHeader</a></li>
                                                     <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#property_headerBlock">$headerBlock</a></li>
                                                     <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#property_imageBlob">$imageBlob</a></li>
                                                     <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#property_size">$size</a></li>
+                                                    <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#property_vipsImage">$vipsImage</a></li>
                                                     <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#property_contents">$contents</a></li>
-                                                    <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#property_fitsHeader">$fitsHeader</a></li>
                                                     <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#property_path">$path</a></li>
                                             </ul>
                 </li>
@@ -947,10 +1085,11 @@ to compute the length of the main data table</p>
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#method_header">header()</a></li>
-                                            <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#method_saveAsPNG">saveAsPNG()</a></li>
+                                            <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#method_save">save()</a></li>
+                                            <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#method_saveToJPG">saveToJPG()</a></li>
+                                            <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#method_saveToPNG">saveToPNG()</a></li>
+                                            <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#method_saveToTIFF">saveToTIFF()</a></li>
                                             <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#method_validate">validate()</a></li>
-                                            <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#method_writeTo">writeTo()</a></li>
                                             <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#method_extractHeader">extractHeader()</a></li>
                                             <li class=""><a href="classes/Dumbastro-FitsPhp-Fits.html#method_extractImageBlob">extractImageBlob()</a></li>
                                     </ul>
